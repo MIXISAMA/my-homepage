@@ -10,7 +10,7 @@
 
 <style scoped>
 html {
-    font-size: 5rem;
+    font-size: 10vw;
 }
 
 .content {
@@ -18,7 +18,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
+    min-height: 100vh;
     padding: 3rem;
 }
 
@@ -27,7 +27,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 8rem;
+    font-size: 10rem;
     letter-spacing: -0.3rem;
     position: relative;
 }
