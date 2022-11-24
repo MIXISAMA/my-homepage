@@ -21,6 +21,11 @@ const router = createRouter({
       name: "spotlight",
       component: () => import("../views/Spotlight.vue"),
     },
+    {
+      path: "/check-tick",
+      name: "check-tick",
+      component: () => import("../views/CheckTick.vue"),
+    }
   ],
 });
 

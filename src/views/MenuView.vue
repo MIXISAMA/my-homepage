@@ -4,6 +4,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <RouterLink to="/spotlight">Spotlight</RouterLink>
+  <RouterLink to="/check-tick">Check Tick</RouterLink>
   <RouterView></RouterView>
 </template>
 

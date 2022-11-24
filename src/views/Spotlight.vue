@@ -9,17 +9,14 @@
 </template>
 
 <style scoped>
-html {
-    font-size: 10vw;
-}
 
 .content {
+    font-size: 1vw;
     background-color: #222;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 3rem;
 }
 
 h1 {
@@ -27,8 +24,8 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 10rem;
-    letter-spacing: -0.3rem;
+    font-size: 10em;
+    letter-spacing: -0.03em;
     position: relative;
 }
 
@@ -38,8 +35,8 @@ h1::after {
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-clip-path: ellipse(10rem 10rem at 0% 50%);
-    clip-path: ellipse(10rem 10rem at 0% 50%);
+    -webkit-clip-path: ellipse(10em 10em at 0% 50%);
+    clip-path: ellipse(10em 10em at 0% 50%);
     animation: spotlight 5s infinite;
     background-image: url(https://api.minio.zhangjunbo.top/home/picgo/2022/11/22/gradienta-unsplash_repeat_1669056256080__925763.jpg);
     background-size: 100%;
@@ -50,18 +47,18 @@ h1::after {
 
 @keyframes spotlight {
     0% {
-        -webkit-clip-path: ellipse(10rem 10rem at 0% 50%);
-        clip-path: ellipse(10rem 10rem at 0% 50%);
+        -webkit-clip-path: ellipse(10em 10em at 0% 50%);
+        clip-path: ellipse(1em 1em at 0% 50%);
     }
 
     50% {
-        -webkit-clip-path: ellipse(10rem 10rem at 0% 50%);
-        clip-path: ellipse(10rem 10rem at 100% 50%);
+        -webkit-clip-path: ellipse(10em 10em at 0% 50%);
+        clip-path: ellipse(1em 1em at 100% 50%);
     }
 
     100% {
-        -webkit-clip-path: ellipse(10rem 10rem at 0% 50%);
-        clip-path: ellipse(10rem 10rem at 0% 50%);
+        -webkit-clip-path: ellipse(10em 10em at 0% 50%);
+        clip-path: ellipse(1em 1em at 0% 50%);
     }
 }
 </style>

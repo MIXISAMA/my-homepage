@@ -7,9 +7,9 @@
 </template>
 
 <style>
-html {
+/* html {
     font-size: 1vw;
-}
+} */
 
 body {
   margin: 0;
