@@ -25,6 +25,11 @@ const router = createRouter({
       path: "/check-tick",
       name: "check-tick",
       component: () => import("../views/CheckTick.vue"),
+    },
+    {
+      path: "/toggle-button",
+      name: "toggle-button",
+      component: () => import("../views/ToggleButton.vue"),
     }
   ],
 });
