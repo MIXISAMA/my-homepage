@@ -30,7 +30,12 @@ const router = createRouter({
       path: "/toggle-button",
       name: "toggle-button",
       component: () => import("../views/ToggleButton.vue"),
-    }
+    },
+    {
+      path: "/hamburger-menu",
+      name: "hamburger-menu",
+      component: () => import("../views/HamburgerMenu.vue"),
+    },
   ],
 });
 
