@@ -3,11 +3,23 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <RouterLink to="/spotlight">Spotlight</RouterLink>
-  <RouterLink to="/check-tick">Check Tick</RouterLink>
-  <RouterLink to="/toggle-button">Toggle Button</RouterLink>
-  <RouterLink to="/hamburger-menu">Humburger Menu</RouterLink>
-  <RouterView></RouterView>
+  <ul>
+    <li>
+      <RouterLink to="/spotlight">Spotlight</RouterLink>
+    </li>
+    <li>
+      <RouterLink to="/check-tick">Check Tick</RouterLink>
+    </li>
+    <li>
+      <RouterLink to="/toggle-button">Toggle Button</RouterLink>
+    </li>
+    <li>
+      <RouterLink to="/hamburger-menu">Humburger Menu</RouterLink>
+    </li>
+    <li>
+      <RouterLink to="/flip-card">Flip Card</RouterLink>
+    </li>
+  </ul>
 </template>
 
 <style>

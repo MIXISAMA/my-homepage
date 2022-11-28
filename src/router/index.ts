@@ -36,6 +36,11 @@ const router = createRouter({
       name: "hamburger-menu",
       component: () => import("../views/HamburgerMenu.vue"),
     },
+    {
+      path: "/flip-card",
+      name: "flip-card",
+      component: () => import("../views/FlipCard.vue"),
+    },
   ],
 });
 
