@@ -41,6 +41,11 @@ const router = createRouter({
       name: "flip-card",
       component: () => import("../views/FlipCard.vue"),
     },
+    {
+      path: "/circle-count-down",
+      name: "circle-count-down",
+      component: () => import("../views/CircleCountDown.vue"),
+    },
   ],
 });
 

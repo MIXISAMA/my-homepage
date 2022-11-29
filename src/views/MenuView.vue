@@ -19,6 +19,9 @@ import { RouterLink, RouterView } from "vue-router";
     <li>
       <RouterLink to="/flip-card">Flip Card</RouterLink>
     </li>
+    <li>
+      <RouterLink to="/circle-count-down">Circle Count Down</RouterLink>
+    </li>
   </ul>
 </template>
 
