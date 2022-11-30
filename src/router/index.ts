@@ -46,6 +46,11 @@ const router = createRouter({
       name: "circle-count-down",
       component: () => import("../views/CircleCountDown.vue"),
     },
+    {
+      path: "/water-drops",
+      name: "water-drops",
+      component: () => import("../views/WaterDrops.vue"),
+    },
   ],
 });
 

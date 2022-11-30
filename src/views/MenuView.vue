@@ -22,6 +22,9 @@ import { RouterLink, RouterView } from "vue-router";
     <li>
       <RouterLink to="/circle-count-down">Circle Count Down</RouterLink>
     </li>
+    <li>
+      <RouterLink to="/water-drops">Water Drops</RouterLink>
+    </li>
   </ul>
 </template>
 
