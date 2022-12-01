@@ -104,7 +104,7 @@ onMounted(() => {
 
 .sticky-container .cat h3 {
   font-size: 5vw;
-  margin: 0 0 5em 0;
+  margin: 0 0 5vh 0;
   min-width: 50vw;
 }
 
@@ -164,11 +164,11 @@ onMounted(() => {
 
 .bottom {
   position: relative;
-  translate: 0 230vh;
+  translate: 0 220vh;
   background-color: var(--cat-red-bg);
   display: flex;
   justify-content: center;
-  padding-bottom: 2em;
+  padding-bottom: 8vh;
   font-size: 7vw;
   font-weight: bold;
 }
