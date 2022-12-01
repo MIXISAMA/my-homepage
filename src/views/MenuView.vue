@@ -25,6 +25,9 @@ import { RouterLink, RouterView } from "vue-router";
     <li>
       <RouterLink to="/water-drops">Water Drops</RouterLink>
     </li>
+    <li>
+      <RouterLink to="/colors-cat">Colors Cat</RouterLink>
+    </li>
   </ul>
 </template>
 

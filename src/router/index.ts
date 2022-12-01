@@ -51,6 +51,11 @@ const router = createRouter({
       name: "water-drops",
       component: () => import("../views/WaterDrops.vue"),
     },
+    {
+      path: "/colors-cat",
+      name: "colors-cat",
+      component: () => import("../views/ColorsCat.vue"),
+    },
   ],
 });
 
