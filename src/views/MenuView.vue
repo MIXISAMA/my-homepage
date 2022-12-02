@@ -28,6 +28,9 @@ import { RouterLink, RouterView } from "vue-router";
     <li>
       <RouterLink to="/colors-cat">Colors Cat</RouterLink>
     </li>
+    <li>
+      <RouterLink to="/happy-new-year">Happy New Year</RouterLink>
+    </li>
   </ul>
 </template>
 

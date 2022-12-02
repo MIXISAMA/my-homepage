@@ -75,8 +75,6 @@ onMounted(() => {
   --cat-red-text: lightpink;
   --cat-red-text-highlight: crimson;
 
-  color:lightpink;
-
   --cat-height: 60em;
   --cat-offscreen: -40em
 }

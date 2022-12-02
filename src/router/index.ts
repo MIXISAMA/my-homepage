@@ -56,6 +56,11 @@ const router = createRouter({
       name: "colors-cat",
       component: () => import("../views/ColorsCat.vue"),
     },
+    {
+      path: "/happy-new-year",
+      name: "happy-new-year",
+      component: () => import("../views/HappyNewYear.vue"),
+    },
   ],
 });
 
