@@ -38,19 +38,19 @@
 .container {
   display: flex;
   flex-direction: column;
-  perspective: 10em;
+  perspective: 50em;
 }
 
 .container > div {
   display: block;
   height: 1em;
-  font-size: 2em;
+  font-size: 10em;
   overflow: hidden;
 }
 
 .container > div > span {
   display: block;
-  height: 2em;
+  /* height: 6em; */
   font-weight: bold;
   letter-spacing: -.05em;
   text-align: center;
