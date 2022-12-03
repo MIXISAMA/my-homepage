@@ -61,6 +61,11 @@ const router = createRouter({
       name: "happy-new-year",
       component: () => import("../views/HappyNewYear.vue"),
     },
+    {
+      path: "/emoji-dock",
+      name: "emoji-dock",
+      component: () => import("../views/EmojiDock.vue"),
+    },
   ],
 });
 

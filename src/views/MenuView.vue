@@ -31,6 +31,9 @@ import { RouterLink, RouterView } from "vue-router";
     <li>
       <RouterLink to="/happy-new-year">Happy New Year</RouterLink>
     </li>
+    <li>
+      <RouterLink to="/emoji-dock">Emoji Dock</RouterLink>
+    </li>
   </ul>
 </template>
 
