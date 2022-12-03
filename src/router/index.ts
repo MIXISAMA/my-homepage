@@ -66,6 +66,11 @@ const router = createRouter({
       name: "emoji-dock",
       component: () => import("../views/EmojiDock.vue"),
     },
+    {
+      path: "/cyberpunk-glitch-button",
+      name: "cyberpunk-glitch-button",
+      component: () => import("../views/CyberpunkGlitchButton.vue"),
+    },
   ],
 });
 

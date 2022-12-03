@@ -34,6 +34,9 @@ import { RouterLink, RouterView } from "vue-router";
     <li>
       <RouterLink to="/emoji-dock">Emoji Dock</RouterLink>
     </li>
+    <li>
+      <RouterLink to="/cyberpunk-glitch-button">Cyberpunk Glitch Button</RouterLink>
+    </li>
   </ul>
 </template>
 
