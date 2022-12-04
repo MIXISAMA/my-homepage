@@ -71,6 +71,11 @@ const router = createRouter({
       name: "cyberpunk-glitch-button",
       component: () => import("../views/CyberpunkGlitchButton.vue"),
     },
+    {
+      path: "/sketch-text-animation",
+      name: "sketch-text-animation",
+      component: () => import("../views/SketchTextAnimation.vue")
+    },
   ],
 });
 
